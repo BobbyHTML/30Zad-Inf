@@ -1,0 +1,20 @@
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a,b;
+    
+    cout << "Wiek 1: "; 
+    cin >> a;
+    cout << "Wiek 2: ";
+    cin>> b;
+    
+    if(a>b){
+        cout << "Student nr1 jest starszy";
+    }
+    else{
+        cout<< "Student nr2 jest starszy";
+    }
+}
