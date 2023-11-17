@@ -8,10 +8,9 @@ int main() {
 
    
     if ((rok % 4 == 0 and rok % 100 != 0) or (rok % 400 == 0)) {
-        cout << rok << " to rok przestępny." << endl;
+        cout << rok << " to rok przestępny" << endl;
     } else {
-        cout << rok << " nie jest rokiem przestępnym." << endl;
+        cout << rok << " nie jest rokiem przestępnym" << endl;
     }
 
-    return 0;
 }
