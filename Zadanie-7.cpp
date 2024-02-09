@@ -18,9 +18,9 @@ int main() {
     }
 
    
-    for (int i = 0; i < N ; ++i) {
+    for (int i = 0; i < M ; ++i) {
         cout<< "*";
-        for (int j = 0; j < M; ++j) {
+        for (int j = 1; j < N; ++j) {
 
                 cout<< "|*";
             
